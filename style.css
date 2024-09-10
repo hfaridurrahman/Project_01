@@ -1,0 +1,532 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", system-ui;
+}
+/*=============================
+common css
+ ===========================*/
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+.wrapper {
+  width: 1340px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+/*================================== 
+header style start 
+=====================================*/
+header {
+  width: 100%;
+  background: #f40404;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+}
+.logo {
+  width: 20%;
+}
+.logo a img {
+  width: 192px;
+}
+.nev_menu {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nev_menu ul {
+  display: flex;
+}
+.nev_menu ul li {
+  margin-left: 40px;
+}
+.nev_menu ul li a {
+  color: #ffffff;
+  transition: 0.6s;
+}
+.head_button {
+  width: 20%;
+  padding: 27px 0;
+}
+.head_button a {
+  border: 1px solid #ffffff;
+  padding: 13px 30px;
+  color: #ffffff;
+  font-size: 16px;
+  transition: 0.6s;
+}
+/*........................
+             hover stayling 
+       ................................*/
+.nev_menu ul li a:hover {
+  color: #000000;
+}
+.head_button a:hover {
+  background-color: #6c6c6c;
+}
+/*================================== 
+header style start 
+=====================================*/
+
+/*================================== 
+hero aria styling start 
+=====================================*/
+.hiro_aria {
+  width: 100%;
+  height: 783px;
+  background: url(./img/bennar.png) no-repeat;
+  background-size: cover;
+}
+.hiro_aria .wrapper .benner_d {
+  width: 100%;
+  padding: 256px 0;
+}
+.hiro_aria .wrapper .benner_d h1 {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 64px;
+  height: 186px;
+  width: 842px;
+  color: #ffffff;
+}
+.hero_aria .wrapper button {
+  border: 0;
+}
+.hiro_aria .wrapper a {
+  background: #f40404;
+  padding: 13px 40px;
+  display: inline-block;
+  color: #ffffff;
+  margin-top: 31px;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+/*........................
+             hover stayling 
+       ................................*/
+.hiro_aria .wrapper a:hover {
+  background: #c64cf2;
+}
+/*================================== 
+hero aria styling end
+=====================================*/
+
+/*================================== 
+  Welcome aria styling start
+=====================================*/
+.Welcome_aria {
+  width: 100%;
+}
+.Welcome_aria .container {
+  padding: 100px 0;
+}
+.Welcome_aria .container h2 {
+  width: 448px;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 72px;
+  color: #000000;
+}
+
+.Welcome_aria .container p {
+  width: 651px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #6c6c6c;
+  padding-left: 178px;
+}
+
+/*================================== 
+  Welcome aria styling end
+=====================================*/
+
+/*================================== 
+Slider IMG section styling start
+=====================================*/
+.Slider_IMG {
+  width: 100%;
+  margin-bottom: 28px;
+}
+.Slider_IMG img {
+  width: 20%;
+}
+.Slider_IMG .container {
+  justify-content: space-between;
+}
+/*================================== 
+Slider IMG section styling end
+=====================================*/
+
+/*================================== 
+Services section styling start
+=====================================*/
+.Services {
+  width: 100%;
+}
+.Services .Services_one {
+  width: 50%;
+  height: 400px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.Services .Services_one h2 {
+  width: 500px;
+  font-size: 64px;
+  font-weight: bold;
+  color: #000000;
+}
+.Services .Services_one p {
+  width: 400px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #6c6c6c;
+}
+.Services .Services_one .pd_r {
+  padding-right: 60px;
+}
+.Services .Services_two {
+  width: 50%;
+  background: url(./img/Services_img_01.png) no-repeat;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+.Services .Services_two .overlay {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  right: -100%;
+  background-color: #00000062;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.Services .Services_two .overlay h2 {
+  width: 700px;
+  height: 54px;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: bold;
+}
+.Services .Services_two .overlay a {
+  background: #f40404;
+  padding: 13px 30px;
+  display: inline-block;
+  color: #ffffff;
+  margin-top: 19px;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.Services .Services_three {
+  width: 50%;
+  background: url(./img/Services_img_02.png) no-repeat;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+.Services .Services_three .overlay {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  background-color: #00000062;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.Services .Services_three .overlay h2 {
+  width: 700px;
+  height: 54px;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: bold;
+}
+.Services .Services_three .overlay a {
+  background: #f40404;
+  padding: 13px 30px;
+  display: inline-block;
+  color: #ffffff;
+  margin-top: 19px;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.Services .Services_four {
+  width: 50%;
+  background: url(./img/Services_img_03.png) no-repeat;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+.Services .Services_four .overlay {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  background-color: #00000062;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.Services .Services_four .overlay h2 {
+  width: 700px;
+  height: 54px;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: bold;
+}
+.Services .Services_four .overlay a {
+  background: #f40404;
+  padding: 13px 30px;
+  display: inline-block;
+  color: #ffffff;
+  margin-top: 19px;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+/*........................
+             hover stayling 
+       ................................*/
+.Services .Services_two:hover .overlay {
+  right: 0;
+}
+.Services .Services_three:hover .overlay {
+  left: 0;
+}
+.Services .Services_four:hover .overlay {
+  bottom: 0;
+}
+.Services .Services_two .overlay a:hover {
+  background: #c64cf2;
+}
+.Services .Services_three .overlay a:hover {
+  background: #c64cf2;
+}
+.Services .Services_four .overlay a:hover {
+  background: #c64cf2;
+}
+/*================================== 
+Services section styling end
+=====================================*/
+
+/*================================== 
+About section styling start
+=====================================*/
+.About {
+  width: 100%;
+  padding: 136px 0;
+  background-color: #f0f0f0;
+}
+.About .About_img {
+  width: 100%;
+  height: 360px;
+  background: url(./img/About_img.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+.About .About_img .overlay {
+  width: 40%;
+  height: 360px;
+  background-color: #f40404;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: -40%;
+  transition: 0.6s;
+}
+.About .About_img .overlay h2 {
+  width: 213px;
+  height: 162px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.About .About_img a {
+  background: #f40404;
+  padding: 13px 30px;
+  display: inline-block;
+  color: #ffffff;
+  margin-top: 19px;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+}
+/*........................
+             hover stayling 
+       ................................*/
+.About .About_img:hover .overlay {
+  left: 0;
+}
+.About .About_img:hover a {
+  left: 60%;
+}
+.About .About_img a:hover {
+  background: #c64cf2;
+}
+/*================================== 
+About section styling end
+=====================================*/
+/*================================== 
+sponsor section styling start
+=====================================*/
+.sponsor {
+  width: 100%;
+  padding: 116px 0;
+}
+.sponsor .container {
+  justify-content: center;
+  align-items: center;
+}
+.sponsor .container img {
+  margin-left: 16px;
+}
+/*================================== 
+sponsor section styling end
+=====================================*/
+
+/*================================== 
+Blogsection styling start
+=====================================*/
+.Blog {
+  width: 100%;
+  padding: 110px 0;
+  background-color: #f0f0f0;
+}
+
+.Blog .container {
+  justify-content: space-between;
+}
+.Blog .overlay{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Blog .Blog_img_one {
+  width: 30%;
+  height: 400px;
+  background: url(./img/Blog_img_01.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow:hidden ;
+}
+.Blog .Blog_img_one .overlay {
+  width: 100%;
+  height: 400px;
+  background-color:#00000099;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  transition: .6s;
+}
+.Blog .Blog_img_two {
+  width: 30%;
+  height: 400px;
+  background: url(./img/Blog_img_02.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow:hidden ;
+}
+.Blog .Blog_img_two .overlay {
+  width: 100%;
+  height: 400px;
+  background-color:#00000099;
+  position: absolute;
+  bottom:-100%;
+  left:0;
+  transition: .6s;
+}
+.Blog .Blog_img_three {
+  width: 30%;
+  height: 400px;
+  background: url(./img/Blog_img_03.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow:hidden ;
+}
+.Blog .Blog_img_three .overlay {
+  width: 100%;
+  height: 400px;
+  background-color:#00000099;
+  position: absolute;
+  top: 0;
+  right: -100%;
+  transition: .6s;
+}
+.Blog .overlay h2{
+  width: 250px;
+  font-size:24px ;
+  font-weight: bold;
+  color:#FFFFFF ;
+}
+.Blog .overlay a {
+  background: #ffffff50;
+  padding: 10px 22px;
+  display: inline-block;
+  color: #ffffff;
+  margin-top: 52px;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+/*........................
+             hover stayling 
+       ................................*/
+.Blog .Blog_img_one:hover .overlay{
+  left: 0;
+}
+.Blog .Blog_img_two:hover .overlay{
+  bottom:0;
+}
+.Blog .Blog_img_three:hover .overlay{
+  right: 0;
+}
+.Blog .overlay a:hover{
+  background: #c64cf2;
+
+}       
+/*================================== 
+Blog section styling end
+=====================================*/
