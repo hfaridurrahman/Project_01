@@ -428,7 +428,7 @@ Blogsection styling start
 =====================================*/
 .Blog {
   width: 100%;
-  padding: 110px 0;
+  padding: 110px 0 160px 0;
   background-color: #f0f0f0;
 }
 
@@ -530,3 +530,146 @@ Blogsection styling start
 /*================================== 
 Blog section styling end
 =====================================*/
+
+/*================================== 
+map section styling start
+=====================================*/
+.map{
+  width: 100%;
+  height: auto;
+  margin-bottom:-6px ;
+}
+.map img{
+  width: 100%;
+}
+/*================================== 
+contact section styling end
+=====================================*/
+/*================================== 
+map section styling start
+=====================================*/
+.contact{
+  width: 100%;
+  padding: 45px 0;
+  background-color: #F40404;
+}
+.contact .container{
+  justify-content: center;
+  align-items: center;
+}
+.contact_one h2{
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  color: #FFFFFF;
+}
+.contact_buttton{
+  margin-left: 40px;
+}
+.contact_buttton a{
+  background: none;
+  padding: 10px 22px;
+  display: inline-block;
+  color: #FFFFFF;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  border: 2px solid #FFFFFF;
+  transition: 0.5s;
+}
+.contact_buttton a:hover{
+  background: #c64cf2;
+  border: 2px solid #c64cf2;
+  color: #000000;
+}
+/*================================== 
+contact section styling end
+=====================================*/
+
+/*================================== 
+fooder section styling start
+=====================================*/
+.footer .container{
+  column-gap: 150px;
+  align-items: flex-start;
+}
+.footer{
+  width: 100%;
+  padding: 50px;
+  background: rgba(31, 31, 31, 1);
+}
+.footer_one .container{
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content:start;
+}
+.fooder_logo{
+  margin-bottom: 20px;
+
+}
+.footer span{
+color:rgba(255, 255, 255, 1);
+font-size: 16px;
+font-weight: 400;
+line-height: 21px;
+}
+.footer_social{
+  margin: 10px 0;
+}
+.footer_social_icon{
+  margin-top: 25px;
+}
+.footer_social_icon img{
+  margin-left: 10px;
+}
+.footer_two{
+ margin-top: 0;
+}
+.footer_two .container{
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer_two h3{
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+
+}
+.footer_two ul li {
+  margin-top: 10px;
+
+}
+.footer_two ul li a{
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.footer_two img{
+  margin: 10px 20px 0 0 ;
+}
+/*================================== 
+fooder section styling end
+=====================================*/
+/*==================================
+copyright section styling start
+=====================================*/
+.copyright{
+  width: 100%;
+  background: rgba(40, 40, 40, 1);
+  padding: 40px 0;
+}
+.copyright p{
+  color:rgba(108, 108, 108, 1);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-left: 380px;
+}
+
+/*==================================
+copyright section styling end
+=====================================*/
+
